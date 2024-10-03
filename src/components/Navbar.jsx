@@ -9,7 +9,7 @@ import MenuOverlay from './MenuOverlay';
 const navLinks = [
 {
     title: 'Home',
-    path: '#home',
+    path: '#hero',
 },
 {
     title: 'About',
