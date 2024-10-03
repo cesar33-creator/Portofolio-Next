@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Hero from '../../public/image/hero-image.png';
 
 
 const HeroSection = () => {
@@ -60,7 +61,7 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] relative flex items-center justify-center overflow-hidden">
             <Image
-              src="/image/hero-image.png"
+              src={Hero}
               alt="hero-image"
               className="object-cover object-center rounded-full"
               width={300} // Menyesuaikan ukuran gambar

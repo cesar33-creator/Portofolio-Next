@@ -3,6 +3,8 @@ import React, { useState, useRef } from 'react';
 import ProjectCard from './ProjectCard';
 import ProjectTag from './ProjectTag';
 import { motion, useInView } from 'framer-motion';
+import Foto1 from '../../public/image/projects/foto1.png';
+import Foto2 from '../../public/image/projects/foto2.png';
 
 
 const projectsData = [
@@ -10,7 +12,7 @@ const projectsData = [
     id: 1,
     title: 'Bootstrap Portfolio Website',
     description: 'Website tersebut dibuat dengan HTML,CSS,Js, dan Bootstrap',
-    image: '/image/projects/foto1.png',
+    image: Foto1,
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/cesar33-creator/cesar33-creator',
     previewUrl: 'https://cesar33-creator.github.io/portofolio-cesar-v1/portofolio.html',
@@ -19,7 +21,7 @@ const projectsData = [
     id: 2,
     title: 'E-commerce Website',
     description: 'Website tersebut dibuat dengan HTML,CSS,Js. Website Tersebut digunakan untuk Menjual Produk PIPPO',
-    image: '/image/projects/foto2.png',
+    image: Foto2,
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/cesar33-creator/PIPPO',
     previewUrl: 'https://cesar33-creator.github.io/PIPPO/PIPPO.html',
