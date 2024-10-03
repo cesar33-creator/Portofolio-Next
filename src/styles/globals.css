@@ -2,26 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ffffff; /* Warna latar belakang untuk mode terang */
+  --foreground: #171717; /* Warna teks untuk mode terang */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0a0a0a; /* Warna latar belakang untuk mode gelap */
+    --foreground: #ededed; /* Warna teks untuk mode gelap */
   }
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--foreground); /* Menggunakan variabel warna untuk teks */
+  background: var(--background); /* Menggunakan variabel warna untuk latar belakang */
+  font-family: Arial, Helvetica, sans-serif; /* Font default */
 }
 
 @layer utilities {
   .text-balance {
-    text-wrap: balance;
+    text-wrap: balance; /* Menambahkan utilitas untuk text-wrap */
   }
 }
