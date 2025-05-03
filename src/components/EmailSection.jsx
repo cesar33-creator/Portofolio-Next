@@ -14,9 +14,9 @@ const EmailSection = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setError(''); // Reset error state
-  
+
     const form = e.target;
-  
+
     emailjs
       .sendForm(
         'service_9xdm1bk', // Ganti dengan Service ID dari EmailJS
@@ -29,7 +29,7 @@ const EmailSection = () => {
           console.log('Message sent.', result.text);
           setEmailSubmitted(true);
           form.reset();
-  
+
           // Sembunyikan pesan sukses setelah beberapa waktu (contoh: 1,5 detik)
           setTimeout(() => {
             setEmailSubmitted(false);
@@ -40,7 +40,7 @@ const EmailSection = () => {
           console.error('EmailJS Error:', error.text); // Log lebih rinci
         }
       );
-  };  
+  };
 
   return (
     <section id="contact" className="grid md:grid-cols-2 my-12 py-24 gap-4 relative">

@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import Hero from '../../public/image/hero-image.png';
+import Hero from '../../public/image/CESAR1.png';
 
 
 const HeroSection = () => {
@@ -63,9 +63,9 @@ const HeroSection = () => {
             <Image
               src={Hero}
               alt="hero-image"
-              className="object-cover object-center rounded-full"
-              width={300} // Menyesuaikan ukuran gambar
-              height={300} // Menyesuaikan ukuran gambar
+              className="object-cover object-center rounded-full mt-12"
+              width={400} // Menyesuaikan ukuran gambar
+              height={400} // Menyesuaikan ukuran gambar
             />
           </div>
         </motion.div>
