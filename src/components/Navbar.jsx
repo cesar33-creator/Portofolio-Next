@@ -83,7 +83,7 @@ return (
             <Link
                 href={'/'}
                 className="text-2xl md:text-4xl text-white font-black tracking-tighter group z-[110]">
-                CESAR<span className="text-purple-500 group-hover:text-pink-500 transition-colors"></span>
+                CESAR<span className="text-purple-500 group-hover:text-pink-500 transition-colors">.</span>
             </Link>
 
           {/* Mobile Button */}
