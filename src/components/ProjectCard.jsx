@@ -12,6 +12,7 @@ return (
         src={imgUrl}
         alt={title}
         fill // Gunakan layout fill untuk menyesuaikan ukuran
+        sizes="(max-width: 768px) 100vw, 50vw"
         className="rounded-t-xl object-cover"
     />
         <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
