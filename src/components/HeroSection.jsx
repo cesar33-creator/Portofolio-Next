@@ -22,7 +22,7 @@ const HeroSection = () => {
               <div className="relative aspect-[4/5] rounded-[1.8rem] md:rounded-[2.5rem] overflow-hidden">
                 {/* PERBAIKAN DI SINI: Menggunakan path string langsung dari folder public */}
                 <Image
-                  src="/image/hero-formal.png"
+                  src="/image/formal.png"
                   alt="Cesar Rais Akhtar"
                   fill
                   className="object-cover object-top"
