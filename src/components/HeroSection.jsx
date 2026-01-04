@@ -4,7 +4,6 @@ import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import Hero from '../../public/image/hero-formal.png';
 
 const HeroSection = () => {
   return (
@@ -18,11 +17,12 @@ const HeroSection = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
             className="w-full max-w-[260px] sm:max-w-[320px] lg:max-w-none lg:col-span-5 relative order-1 lg:order-2">
-            {/* ... isi konten foto sama seperti sebelumnya ... */}
+
             <div className="relative z-10 bg-[#0a0a0a] p-3 rounded-[2rem] md:rounded-[3rem] border border-white/10 shadow-2xl">
               <div className="relative aspect-[4/5] rounded-[1.8rem] md:rounded-[2.5rem] overflow-hidden">
+                {/* PERBAIKAN DI SINI: Menggunakan path string langsung dari folder public */}
                 <Image
-                  src={Hero}
+                  src="/image/hero-formal.png"
                   alt="Cesar Rais Akhtar"
                   fill
                   className="object-cover object-top"
@@ -40,7 +40,6 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="col-span-12 lg:col-span-7 text-center lg:text-left order-2 lg:order-1"
           >
-            {/* ... sisa konten teks sama seperti sebelumnya ... */}
             <div className="flex items-center justify-center lg:justify-start gap-3 mb-4 md:mb-6">
               <span className="text-[10px] md:text-xs uppercase tracking-[0.3em] text-purple-400 font-bold">
                 Informatics Engineering Student

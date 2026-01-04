@@ -11,7 +11,7 @@ return (
     <Image
         src={imgUrl}
         alt={title}
-        layout="fill" // Gunakan layout fill untuk menyesuaikan ukuran
+        fill // Gunakan layout fill untuk menyesuaikan ukuran
         className="rounded-t-xl object-cover"
     />
         <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">

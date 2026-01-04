@@ -3,17 +3,13 @@ import React, { useState, useRef } from 'react';
 import ProjectCard from './ProjectCard';
 import ProjectTag from './ProjectTag';
 import { motion, useInView } from 'framer-motion';
-import foto1 from '../../public/image/projects/foto1.png';
-import foto2 from '../../public/image/projects/foto2.png';
-import foto3 from '../../public/image/projects/foto3.png';
-
 
 const projectsData = [
 {
     id: 1,
     title: 'Bootstrap Portfolio Website',
     description: 'Website tersebut dibuat dengan HTML,CSS,Js, dan Bootstrap',
-    image: foto1,
+    image: '/image/projects/foto1.png',
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/cesar33-creator/cesar33-creator',
     previewUrl: 'https://cesar33-creator.github.io/portofolio-cesar-v1/portofolio.html',
@@ -22,7 +18,7 @@ const projectsData = [
     id: 2,
     title: 'E-commerce Website',
     description: 'Website tersebut dibuat dengan HTML,CSS,Js. Website Tersebut digunakan untuk Menjual Produk PIPPO',
-    image: foto2,
+    image: '/image/projects/foto2.png',
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/cesar33-creator/PIPPO',
     previewUrl: 'https://cesar33-creator.github.io/PIPPO/PIPPO.html',
@@ -31,7 +27,7 @@ const projectsData = [
     id: 3,
     title: 'Website Desa Pasanggrahan',
     description: 'Website tersebut dibuat untuk mempermudah sistem informasi di Desa Pasanggrahan.',
-    image: foto3,
+    image: '/image/projects/foto3.png',
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/cesar33-creator/Web-Desa-Pasanggrahan',
     previewUrl: 'https://cesar33-creator.github.io/Web-Desa-Pasanggrahan/',
