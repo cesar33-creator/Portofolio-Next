@@ -21,7 +21,7 @@ const HeroSection = () => {
             <div className="relative z-10 bg-[#0a0a0a] p-3 rounded-[2rem] md:rounded-[3rem] border border-white/10 shadow-2xl">
               <div className="relative aspect-[4/5] rounded-[1.8rem] md:rounded-[2.5rem] overflow-hidden">
                 <Image
-                  src="/image/Hero-Formal.png"
+                  src="/image/hero-formal.png"
                   alt="Cesar Rais Akhtar"
                   fill
                   className="object-cover object-top"
