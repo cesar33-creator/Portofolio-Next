@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Hero from '../../public/image/formal.png';
 
 const HeroSection = () => {
   return (
@@ -22,12 +23,12 @@ const HeroSection = () => {
               <div className="relative aspect-[4/5] rounded-[1.8rem] md:rounded-[2.5rem] overflow-hidden">
                 {/* PERBAIKAN DI SINI: Menggunakan path string langsung dari folder public */}
                 <Image
-                  src="/image/formal.png"
+                  src={Hero}
                   alt="Cesar Rais Akhtar"
                   fill
                   className="object-cover object-top"
                   priority
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
             </div>
