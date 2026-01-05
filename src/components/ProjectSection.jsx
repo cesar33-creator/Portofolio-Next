@@ -15,7 +15,7 @@ const projectsData = [
     image: foto1,
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/cesar33-creator/cesar33-creator',
-    previewUrl: 'https://cesar33-creator.github.io/portofolio-cesar-v1/portofolio.html',
+    previewUrl: 'https://portofolio-cesar-v1.vercel.app/',
 },
 {
     id: 2,
@@ -24,7 +24,7 @@ const projectsData = [
     image: foto2,
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/cesar33-creator/PIPPO',
-    previewUrl: 'https://cesar33-creator.github.io/PIPPO/PIPPO.html',
+    previewUrl: 'https://pippo-semprong-seroja.vercel.app/',
 },
 {
     id: 3,
@@ -33,7 +33,7 @@ const projectsData = [
     image: foto3,
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/cesar33-creator/Web-Desa-Pasanggrahan',
-    previewUrl: 'https://cesar33-creator.github.io/Web-Desa-Pasanggrahan/',
+    previewUrl: 'https://web-desa-pasanggrahan.vercel.app/',
 },
 ];
 
