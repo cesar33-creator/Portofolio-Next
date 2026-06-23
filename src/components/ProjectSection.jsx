@@ -6,6 +6,7 @@ import { motion, useInView } from 'framer-motion';
 import foto1 from '../../public/image/projects/foto1.png';
 import foto2 from '../../public/image/projects/foto2.png';
 import foto3 from '../../public/image/projects/foto3.png';
+import websiteKarta from '../../public/image/projects/websiteKarta.png';
 
 const projectsData = [
 {
@@ -34,6 +35,15 @@ const projectsData = [
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/cesar33-creator/Web-Desa-Pasanggrahan',
     previewUrl: 'https://web-desa-pasanggrahan.vercel.app/',
+},
+{
+    id: 4,
+    title: 'Website Karang Taruna RW 16',
+    description: 'Website tersebut dibuat untuk mempermudah sistem informasi di Karang Taruna RW 16.',
+    image: websiteKarta,
+    tag: ['All', 'Web'],
+    gitUrl: 'https://github.com/cesar33-creator/Karta-RW-16',
+    previewUrl: 'https://karta-rw-16.vercel.app/',
 },
 ];
 
